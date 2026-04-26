@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 350px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.input-group{
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: beige;
+}
